@@ -9,7 +9,7 @@ function App() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const response = await fetch('https://spotify-copy-project-be8z-piswcru5b-kanav-bihanis-projects.vercel.app/recommend', {
+    const response = await fetch('https://spotify-copy-project-be8z.vercel.app/recommend', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
