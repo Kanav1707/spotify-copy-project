@@ -1,0 +1,27 @@
+# Ignore virtual environments
+venv/
+
+# Ignore Node.js modules
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore system files
+.DS_Store
+
+# Ignore build and distribution files
+dist/
+build/
+
+# Ignore environment files
+*.env
+# Ignore Python virtual environment
+backend/venv/
+
+# Ignore large model and library files
+backend/pretrained_model/
+backend/pretrained_model.zip
+
+
+

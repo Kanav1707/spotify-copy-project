@@ -1,0 +1,6 @@
+flask
+requests
+numpy
+torch              # For PyTorch models
+tensorflow         # For TensorFlow models
+python-dotenvpip 
