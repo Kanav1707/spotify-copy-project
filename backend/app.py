@@ -106,4 +106,4 @@ def fetch_spotify_recommendations(artist_name, sentiment):
     return recommendations
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
