@@ -9,8 +9,8 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
 # Spotify setup
-client_id = '64d63a5e8dc94fe7aded2c8175e64a0e'
-client_secret = '3277c839fb2345ff8707929e85452821'
+client_id = '0ce235c8f88543ad98947b814b2c634b'
+client_secret = 'a076965536f642b5baf5903107345947'
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id=client_id, client_secret=client_secret))
 
 # Sentiment analysis pipeline
